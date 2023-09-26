@@ -1,0 +1,27 @@
+body{
+    background: #2f9fcc;
+}
+
+
+*{
+    font-family: montserrat;
+}
+
+.navbar-nav{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-item{
+        height: 60vh
+    }
+    /* font-size: 14px */
+}
